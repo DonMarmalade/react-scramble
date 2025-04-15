@@ -1,5 +1,11 @@
+import Game from "./components/Game/index.js";
+
 function App() {
-    return <></>;
+    return (
+        <>
+            <Game />
+        </>
+    );
 }
 
 export default App;

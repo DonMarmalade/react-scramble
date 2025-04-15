@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    background-color: whitesmoke;
+}
+
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+span {
+    cursor: pointer;
+}

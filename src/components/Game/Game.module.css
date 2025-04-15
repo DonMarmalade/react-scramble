@@ -1,0 +1,58 @@
+.App {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.lettersContainer {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.wordList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2rem;
+    font-family: monospace;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 36px;
+}
+
+.win {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.restartButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.restartButton:hover {
+    background-color: #0056b3;
+}
